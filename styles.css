@@ -9,7 +9,7 @@
 .header{
 	text-align:left;
 	background-image : linear-gradient(to right, #1a237e, #303f9f, #3f51b5, #7986cb);
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	height: 100px;
 	padding: 0px;
 	margin-top: 0;
@@ -29,7 +29,7 @@
 
 
 body{
-    background-color: black;
+    background-color: white;
    /* background-repeat:repeat; */
     margin: 0;
 }
@@ -45,10 +45,10 @@ body{
 	display: table-row;
 }
 
-#voltage-tab-wrapper{
+#image-data-wrapper{
 	display: table-cell; 
 	background-image : linear-gradient(to right, #c62828, #d32f2f, #f44336, #e57373, #ef9a9a);
-	width: 410px;
+	width: 643px;
 	height: 300px;
 	overflow: hidden;
 	font-size: 20px;
@@ -61,7 +61,7 @@ body{
 	
 }
 
-#voltage-data{
+#image-result{
 	color:white;
 	padding-top: 12px;
 	font-family: 'Cabin', sans-serif;
@@ -69,30 +69,27 @@ body{
 	font-size: 22px;
 }
 
-#voltage_log{
+#image-result{
 	font-family: 'Viga', sans-serif;
 	font-size: 26px;
 	text-shadow : 3px 3px black;
 }
 
-#voltage_unit{
-	text-shadow: 2px 2px red;
-}
-
-#current-tab-wrapper{
+#camera-tab-wrapper{
 	display: table-cell;
 	background-image: linear-gradient(to right, #6a1b9a, #8e24aa, #ab47bc, #ba68c8, #ce93d8);
-	width: 430px;
+	width: 650px;
 	height: 300px;
 	overflow: hidden;
 	font-size: 20px;
 	box-sizing: border-box;
+	margin-right: 0px;
 	/* outline-style: solid;
 	outline-color: black;
 	border : 4px solid black; */
 }
 
-#current-data{
+#camera-specs-desc{
 	color: white;
 	font-family: 'Cabin', sans-serif;
 	padding-top: 12px;
@@ -100,180 +97,8 @@ body{
 	font-size: 22px;
 }
 
-#current_log{
+#camera-input{
 	font-family: 'Viga', sans-serif;
 	font-size: 26px;
 	text-shadow : 3px 3px black;
 }
-
-#frequency-tab-wrapper{
-	display: table-cell;
-	background-image : linear-gradient(to right, #00838f, #0097a7, #00acc1, #00bcd4, #26c6da, #4dd0e1, #80deea);
-	width: 400px;
-	height: 300px;
-	overflow: hidden;
-	font-size: 20px;
-	box-sizing: border-box;
-	/*
-	outline-style: solid;
-	outline-color: black;
-	border : 4px solid black;
-	*/
-}
-
-#frequency-data{
-	color: white;
-	padding-top: 12px;
-	padding-left: 10px;
-	font-family: 'Cabin', sans-serif;
-	font-size: 22px;
-}
-
-#frequency_log{
-	font-family: 'Viga', sans-serif;
-	font-size: 26px;
-	text-shadow : 3px 3px black;
-}
-
-.load-status-header{
-	background-image: linear-gradient(to right, #e65100, #ef6c00, #f57c00, #fb8c00, #ff9800, #ffb74d);
-	margin-top: 10px;
-	height : 60px;
-	padding : 0px;
-	text-align: center;
-	box-sizing: border-box;
-	margin-bottom: 10px;
-}
-
-.load-status-header-text{
-	font-family: 'Fjalla One', sans-serif;
-	color : white;
-	font-size: 40px;
-	margin-bottom: 4px;
-	text-shadow: 3px 3px #e65100;
-}
-
-#load-status-wrapper{
-	display: table-cell;
-	width: 1297px;
-	overflow: hidden;
-	box-sizing: border-box;
-}
-
-#load-row{
-	display: table-row;
-}
-
-#first-load{
-	display: table-cell; 
-	background-image : linear-gradient(to right, #64dd17, #76ff03, #b2ff59, #ccff90);
-	width: 320px;
-	height: 200px;
-	overflow: hidden;
-	font-size: 20px;
-	box-sizing: border-box;
-	box-sizing: border-box;
-	/*outline-style: solid;
-	outline-color: black;
-	border : 3px solid black;*/
-}
-
-#first-load-name{
-	color:white;
-	padding-top: 12px;
-	font-family: 'Cabin', sans-serif;
-	padding-left: 10px;
-	font-size: 20px;
-	text-shadow : 2px 2px 2px black;
-}
-
-#first-load-status{
-	font-family: 'Viga', sans-serif;
-	text-shadow : 2px 2px 2px black;
-}
-
-#second-load{
-	display: table-cell; 
-	background-image : linear-gradient(to right, #ffd600, #ffea00, #ffff00, #ffff8d);
-	width: 330px;
-	height: 200px;
-	margin-right: 10px;
-	overflow: hidden;
-	font-size: 20px;
-	box-sizing: border-box;
-	/*outline-style: solid;
-	outline-color: black;
-	border : 3px solid black;*/
-}
-
-#second-load-name{
-	color:white;
-	padding-top: 12px;
-	font-family: 'Cabin', sans-serif;
-	padding-left: 10px;
-	font-size: 20px;
-	text-shadow : 2px 2px 2px black;
-}
-
-#second-load-status{
-	font-family: 'Viga', sans-serif;
-	text-shadow : 2px 2px 2px black;
-}
-
-#third-load{
-	display: table-cell; 
-	background-image : linear-gradient(to right, #aeea00, #c6ff00, #eeff41, #f4ff81);
-	width: 335px;
-	height: 200px;
-	margin-right: 10px;
-	overflow: hidden;
-	font-size: 20px;
-	box-sizing: border-box;
-	/*outline-style: solid;
-	outline-color: black;
-	border : 3px solid black;*/
-}
-
-#third-load-name{
-	color:white;
-	padding-top: 12px;
-	font-family: 'Cabin', sans-serif;
-	padding-left: 10px;
-	font-size: 20px;
-	text-shadow : 2px 2px 2px black;
-}
-
-#third-load-status{
-	font-family: 'Viga', sans-serif;
-	text-shadow : 2px 2px 2px black;
-}
-
-#fourth-load{
-	display: table-cell; 
-	background-image : linear-gradient(to right, #00695c, #00796b, #00897b, #009688, #26a69a, #80cbc4, #b2dfdb);
-	width: 342px;
-	height: 200px;
-	margin-right: 10px;
-	overflow: hidden;
-	font-size: 20px;
-	box-sizing: border-box;
-	/*outline-style: solid;
-	outline-color: black;
-	border : 3px solid black;*/
-}
-
-#fourth-load-name{
-	color:white;
-	padding-top: 12px;
-	font-family: 'Cabin', sans-serif;
-	padding-left: 10px;
-	font-size: 20px;
-	text-shadow : 2px 2px 2px black;
-}
-
-#fourth-load-status{
-	font-family: 'Viga', sans-serif;
-	text-shadow : 2px 2px 2px black;
-}
-
-
