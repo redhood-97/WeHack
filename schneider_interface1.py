@@ -9,6 +9,7 @@ from flask import Flask, render_template
 from flask import jsonify
 from flask_cors import CORS, cross_origin
 from flask_restful import Resource, Api
+from flask import jsonify
 
 import numpy as np
 
